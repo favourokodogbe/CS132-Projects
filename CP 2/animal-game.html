@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Quiz</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="utils.js"></script>
+    <script defer src="game.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Animal Picture Quiz</h1>
+    </header>
+
+    <main>
+        <section id="home-page">
+            <h2> Welcome to Animal Picture Quiz! Here are a few points 
+                to keep in mind:
+            </h2>
+            <ul>
+                <li>1. You have 30 seconds to match the animal to the name using 
+                    the dropdown options.</li>
+                <li>2. If you get it wrong, the picture will not change and it will say that your guess is 
+                    incorrect at the bottom of the page. Once you get the answer
+                    correct, the picture will change to another animal.</li>
+                <li>3. If you get 10 animals correct before the timer runs out, 
+                    you win! Otherwise, you lose :&#40;
+                </li>
+            </ul>
+            <button id="start-btn">Play Game!</button>
+
+            <article>
+                <!-- Source: https://onwardstate.com/2016/05/04/take-a-study-break-and-
+                    look-at-cute-baby-animal-gifs/-->
+                <img src="imgs/gif1.gif" alt="animal gif1">
+                <!-- Source: https://giphy.com/explore/funny-animals -->
+                <img src="imgs/gif2.gif" alt="animal gif2">
+                <!-- Source: https://giphy.com/explore/duck-->
+                <img src="imgs/gif3.gif" alt="animal gif3">
+                <!-- Source: https://giphy.com/gifs/loop-problem-hFmIU5GQF18Aw -->
+                <img src="imgs/gif4.gif" alt="animal gif4">
+            </article>
+        </section>
+        
+        <section id="game-page" class="hidden">
+            <div id="top-info">
+                <button id="back-btn">Exit Game</button>
+                <p>Time: <span id="time">00 seconds left</span></p>
+                <p>Animals Correct: <span id="corr-count">0</span></p>
+            </div>
+            <div id="animal-pics">
+                <p>What is the animal?</p>
+                <select name="animal-options" id = "animal-options">
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Horse">Horse</option>
+                    <option value="Sloth">Sloth</option>
+                    <option value="Koala">Koala</option>
+                    <option value="Penguin">Penguin</option>
+                    <option value="Axolotl">Axolotl</option>
+                    <option value="Porpoise">Porpoise</option>
+                    <option value="Leopard">Leopard</option>
+                    <option value="Gibbon">Gibbon</option>
+                </select>
+                <button id="check-btn">Check</button>
+            </div>
+            <article>
+                <!-- Source: https://commons.wikimedia.org/wiki/File:Blank_image.jpg -->
+                <img src="imgs/spacer.jpeg" id="animal-pic" alt="animal picture">
+            </article>
+            <section>
+                <p>Your guess is: <span id="guess"></span></p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>All pictures have been cited in the page source. Copyright &copy; 2023</p>
+    </footer>
+</body>
+</html>
