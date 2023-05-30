@@ -1,0 +1,110 @@
+/*
+Name: Favour Okodogbe
+Date: April 30
+CS 132
+
+This is hamster-styles.css, it is the css file to style one
+of the pages of my hamster website about my pet Jasper. 
+This css adds the details for the information about 
+Syrian Hamsters.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
+
+body {
+  background-color: #060707;
+  /* Using imported Google Font (remember the default font family!) */
+  font-family: "Oxygen", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px; /* gives some padding inside the body to center its contents a bit more */
+  /* Flex layout covered next week */
+  height: 100px;
+  flex-direction: column;
+}
+
+body, aside {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+p {
+  font-size: 14pt;
+}
+
+header, footer {
+  text-align: center;
+}
+
+section {
+	background-color: #3d76e9;
+  display: block;
+  padding: 40px;
+  width: 94%;
+}
+
+aside {
+	padding: 10px;
+
+}
+
+aside, aside img {
+	margin-right: 10px;
+}
+
+aside img {
+	height: 180px;
+	margin-left: 10px;
+}
+
+header {
+  background-color: #f8282888;
+  height: 150px;
+}
+
+aside {
+  background-color: #101f1c00;
+}
+
+footer {
+	background-color: #FFD700; 
+  font-style: italic;
+}
+
+p {
+  background-color: #e8e8e888;
+}
+
+section header, aside, p {
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* This uses a combinatorial selector to select headers DIRECTLY inside the body
+ * (selecting no the other headers) */
+body > header, footer {
+  line-height: 80px;
+  margin: 15px auto;
+  width: 100%;
+}
+
+
+/*
+ * This is the only image with these properties, so it makes sense to give it an ID. Make sure
+ * to avoid over-using classes and IDs when you can use other selectors instead.
+ */
+ #down-under {
+  border: 2px solid black;
+  background-color: white;
+}
