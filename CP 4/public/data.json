@@ -1,0 +1,58 @@
+{
+    "Lloyd": {
+        "house-name": "Lloyd",
+        "president-name": "Leo Williams",
+        "full-fee": "100",
+        "social-fee": "70"
+    },
+
+    "Fleming": {
+        "house-name": "Fleming",
+        "president-name": "Andrew Pasco",
+        "full-fee": "80",
+        "social-fee": "50"
+    },
+
+    "Venerable": {
+        "house-name": "Venerable",
+        "president-name": "Emily Choe",
+        "full-fee": "60",
+        "social-fee": "30"
+    },
+
+    "Ricketts": {
+        "house-name": "Ricketts",
+        "president-name": "Megan Robertson",
+        "full-fee": "40",
+        "social-fee": "10"
+    },
+
+    "Page": {
+        "house-name": "Page",
+        "president-name": "Rik Bose",
+        "full-fee": "150",
+        "social-fee": "75"
+        
+    },
+
+    "Dabney": {
+        "house-name": "Dabney",
+        "president-name": "Tomas Wexler",
+        "full-fee": "33",
+        "social-fee": "20"
+    },
+
+    "Avery": {
+        "house-name": "Avery",
+        "president-name": "Parul Singh",
+        "full-fee": "95",
+        "social-fee": "45"
+    },
+
+    "Blacker": {
+        "house-name": "Blacker",
+        "president-name": "Aditee Prabhutendolkar",
+        "full-fee": "75",
+        "social-fee": "25"
+    }
+}

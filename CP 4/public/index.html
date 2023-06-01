@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caltech Houses</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="helpers.js"></script>
+    <script defer src="houses.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="h1">Caltech House Membership</h1>
+        <h2 id="h2">Please select a house for information about the house and its membership fees!</h2>
+    </header>
+    <main>
+        <section id="houses">
+            <div id="house-container">
+                <article id="dabney">
+                    <img src="imgs/dabney-logo.png" alt="dabney-logo">
+                    <hr>
+                    <p>Dabney House</p>
+                    <button id="dabney-btn">Learn More about Dabney</button>
+                </article>
+
+                <article id="fleming">
+                    <img src="imgs/fleming-logo.png" alt="fleming-logo">
+                    <hr>
+                    <p>Fleming House</p>
+                    <button id="flem-btn">Learn More about Fleming</button>
+                </article>
+
+                <article id="ricketts">
+                    <img src="imgs/ricketts-logo.png" alt="ricketts-logo">
+                    <hr>
+                    <p>Ricketts House</p>
+                    <button id="ricketts-btn">Learn More about Ricketts</button>
+                </article>
+
+                <article id="avery">
+                    <img src="imgs/avery-logo.jpeg" alt="avery-logo">
+                    <hr>
+                    <p>Avery House</p>
+                    <button id="avery-btn">Learn More about Avery</button>
+                </article>
+
+                <article id="venerable">
+                    <img src="imgs/venerable-logo.png" alt="venerable-logo">
+                    <hr>
+                    <p>Venerable House</p>
+                    <button id="ven-btn">Learn More about Venerable</button>
+                </article>
+
+                <article id="page">
+                    <img src="imgs/page-logo.png" alt="page-logo">
+                    <hr>
+                    <p>Page House</p>
+                    <button id="page-btn">Learn More about Page</button>
+                </article>
+                
+                <article id="lloyd">
+                    <img src="imgs/lloyd-logo.jpeg" alt="lloyd-logo">
+                    <hr>
+                    <p>Lloyd House</p>
+                    <button id="lloyd-btn">Learn More about Lloyd</button>
+                </article>
+                <article id="blacker">
+                    <img src="imgs/blacker-logo.png" alt="blacker-logo">
+                    <hr>
+                    <p>Blacker House</p>
+                    <button id="blacker-btn">Learn More about Blacker</button>
+            
+                </article>
+            </div>
+        </section>
+        <section id="house-info" class="hidden">
+            <h2>House: <span id="house-name"></span></h2>
+            <h3>President: <span id="pres-name">None</span></h3>
+            <h4>Full Membership Fee: $<span id="full-fee">0</span></h4>
+            <h4>Social Membership Fee: $<span id="social-fee">0</span></h4>
+            <button id="back-btn">Return to Home Page</button><br>
+            <button id="alert-btn"></button>
+        </section>
+    </main>
+    <footer id ="footer">
+        <h2>Used Caltech Houses API &copy;2023</h2>
+    </footer>
+</body>
+</html>
