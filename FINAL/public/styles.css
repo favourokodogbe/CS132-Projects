@@ -1,0 +1,217 @@
+/*
+  Name: Favour Okodogbe
+  CS 132 Spring 2023
+  This is the CSS file for the LA Clothing Store website 
+*/
+
+main {
+  background-color: rgb(232, 166, 177);
+}
+
+header, footer {
+  background-color: rgb(127,205,255); 
+}
+
+h2, #product-p {
+  background-color: rgb(246, 227, 212);
+}
+
+#top-bar button, #gender-options, #cloth-options {
+  border: 3pt solid rgb(54, 101, 130);
+}
+
+body, a, #top-bar button, #submit-btn, #remove-btn, #buy-items, 
+#gender-options, #cloth-options, #item-container, #filter-view {
+  color:#000000; 
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#remove-btn, #submit-btn, #buy-items, #leavereview-btn, #product-view button, 
+#cart-view button, #product-color, #product-size, #contact-btn {
+  border: 3pt solid rgb(131, 68, 78);
+}
+
+h2, h3, #product-p, #item-container article, #filter-view article, #product-view,
+#product-view button, #cart-view button, #product-color, #product-size, #contact-btn,
+#cart-view article, #review-view article, #cart-view, footer {
+  text-align: center;
+}
+
+h1 {
+  padding-left: 20pt;
+}
+
+#top-bar button, #submit-btn, #remove-btn, #buy-items, #gender-options, #cloth-options,
+#product-view button, #cart-view button, #product-color, #product-size, #contact-btn {
+  font-size: 12pt;
+}
+
+#top-bar button, #submit-btn, #remove-btn, #buy-items, #gender-options, #cloth-options,
+#product-view button, #cart-view button, #product-color, #product-size, #contact-btn,
+footer, #name, #clothing, #review-words, #contact-name, #date, #information,
+#submit-btn, #leavereview-btn, label{
+  font-weight: bold;
+}
+
+img, #top-bar {
+  padding: 10px;
+}
+
+#product-info, #main-point, h2, #product-p {
+  margin: 10pt;
+}
+
+img {
+  max-width: 100pt;
+  max-height: 150pt;
+}
+
+body {
+  font-family: Ubantu, Verdana, sans-serif;
+}
+  
+body, h1, ul {
+  margin: 0;
+}
+
+a, li {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+label, #top-bar {
+  font-size: 14pt;
+}
+
+nav, li {
+  display: inline;
+}
+
+li {
+  margin-left: 10pt;
+}
+  
+#item-container, #filter-container {
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+#item-container article, #filter-container article {
+  padding: auto;
+  margin: 30pt;
+  width: 175pt;
+  min-height: 300pt;
+  border: 7pt solid rgb(131, 68, 78);
+  background-color: rgb(252, 252, 252);
+}
+
+#submit-btn, #leavereview-btn, #item-container article,
+#filter-container article {
+  padding: 10pt;
+}
+
+.hidden {
+  display: none;
+}
+
+#product-view {
+  padding: 50pt;
+}
+
+#cart-view article, #review-view article,
+#product-view img {
+  align-items: center;
+}
+
+#product-view img {
+  min-width: 400pt;
+  min-height: 400pt;
+}
+
+#product-view p, #product-view h3 {
+  font-size: 20pt;
+  font-weight: larger;
+}
+
+#product-info, #main-point, #cart-view article, #review-view article,
+#remove-btn, footer, h2, #product-p, #item-container, #filter-view {
+  padding: 5pt;
+}
+
+#product-view button, #cart-view button, #product-color, #product-size, #contact-btn {
+  background-color: rgb(252, 252, 252);;
+  width: 200pt;
+}
+
+#cart-view section {
+  display: block;
+  line-height: 0.25;
+}
+
+#cart-view article, #review-view article {
+  border: 2pt solid black;
+}
+
+#cart-view article, #review-view article, #remove-btn {
+  margin: 5pt;
+}
+
+#remove-btn {
+  width: 150pt;
+}
+
+#item1, #item2, ul {
+  text-align: right;
+}
+
+#check-btn2 {
+  margin-right: 10pt;
+}
+
+footer {
+  margin-top: 5pt;
+}
+
+#cart-view section {
+  padding-bottom: 3pt;
+  padding-top: 1pt;
+}
+
+#cart-view img {
+  padding-bottom: 1pt;
+}
+
+#review-submit, #contact-view {
+  display: grid;
+  padding: 30pt;
+}
+
+#name, #clothing, #review-words, #contact-name, #date, #information {
+  margin: 20pt;
+  font-size: 17pt;
+}
+
+#product-view button, #cart-view button, #product-color, #product-size, #contact-btn,
+#name, #clothing, #review-words, #contact-name, #date, #information {
+  height: 30pt;
+}
+
+#leavereview-btn {
+  margin-top: 10pt;
+}
+
+#submit-btn, #leavereview-btn {
+  width: 10%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
