@@ -1,9 +1,0 @@
-In order to see it, please do the following in your terminal:
-npm init
-npm install 
-npm install nodemon
-npm install express
-npm install multer
-npx nodemon app.js 
-
-USE localhost:8000 to view content on the web! 
