@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Men LA-themed Shirt",
+    "size": "Small",
+    "color": "Green",
+    "image": "http://localhost:8000/imgs/mtop2.jpeg",
+    "price": "22.40"
+  }
+]
