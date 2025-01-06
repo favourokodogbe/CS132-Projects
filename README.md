@@ -1,4 +1,4 @@
-Hello! My name is Favour Okodogbe and I am a junior at Caltech studying Computer Science and Information and Data 
+Hello! My name is Favour Okodogbe and I am a senior at Caltech studying Computer Science and Information and Data 
 Science. I have a passion for Web Development and Data Science with experience in both from classes and internships.
 Please reach out to me at feokodogbe4@gmail.com if you have any questions!
 
